@@ -14,11 +14,9 @@ sudo apt upgrade -y
 
 sudo apt install wget -y
 
-sudo apt install software-properties-common apt-transport-https \
-net-tools htop grsync git xclip \
-openssh-server sshfs simplescreenrecorder \
-ubuntu-restricted-extras mpv vlc gthumb gnome-shell-extensions gnome-tweaks chrome-gnome-shell \
-spell -yy
+sudo apt install  \
+net-tools htop git xclip \
+vlc gthumb gnome-shell-extensions gnome-tweaks chrome-gnome-shell -yy
 
 # Install VS Code
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
