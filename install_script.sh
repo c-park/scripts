@@ -14,8 +14,8 @@ sudo apt upgrade -y
 
 sudo apt install wget -y
 
-sudo apt install  \
-net-tools htop git xclip \
+sudo apt install neofetch openssh-server openssh-client  \
+net-tools htop git xclip ssh \
 vlc gthumb gnome-shell-extensions gnome-tweaks chrome-gnome-shell -yy
 
 # Install VS Code
